@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Интерактивная магия CSS Border</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+     <h1>Различные свойства и виды Border</h1>
+
+    <div class="grid">
+
+        <div class="card">
+            <div class="card-title">1. Сплошная классика</div>
+            <div class="demo-box b-solid">Solid</div>
+            <div class="code">border: 4px solid #f43f5e;</div>
+        </div>
+
+        <div class="card">
+            <div class="card-title">2. Разные стили сторон</div>
+            <div class="demo-box b-dashed-dotted">Mixed</div>
+            <div class="code">border-top: 4px dashed;<br>border-left: 4px dotted;</div>
+        </div>
+
+        <div class="card">
+            <div class="card-title">3. Двойная рамка (Double)</div>
+            <div class="demo-box b-double">Double</div>
+            <div class="code">border: 6px double #a855f7;</div>
+        </div>
+
+        <div class="card">
+            <div class="card-title">4. Сложная геометрия углов</div>
+            <div class="demo-box b-radius-complex">Кучка</div>
+            <div class="code">border-radius: 60% 40% 30% 70% / 60% 30% 70% 40%;</div>
+        </div>
+
+        <div class="card">
+            <div class="card-title">5. Псевдо-3D объем</div>
+            <div class="demo-box b-3d">3D Иллюзия</div>
+            <div class="code">/* Разный цвет сторон */<br>border-top: 8px solid #64748b;<br>border-bottom: 8px solid #1e293b;</div>
+        </div>
+
+        <div class="card">
+            <div class="card-title">6. Градиентная граница</div>
+            <div class="demo-box b-gradient">Gradient</div>
+            <div class="code">border: 5px solid;<br>border-image: linear-gradient(...) 1;</div>
+        </div>
+
+        <div class="card">
+            <div class="card-title">7. Интерактивная рамка</div>
+            <div class="demo-box b-animated">Наведи меня</div>
+            <div class="code">border-color: #f59e0b;<br>box-shadow: 0 0 15px...<br>transition: all 0.3s;</div>
+        </div>
+
+        <div class="card">
+            <div class="card-title">8. Двойной контур (Outline)</div>
+            <div class="demo-box b-outline-offset">Offset</div>
+            <div class="code">border: 2px solid;<br>outline: 2px dashed;<br>outline-offset: 4px;</div>
+        </div>
+
+        <div class="card">
+            <div class="card-title">9. Фигуры из border (Треугольник)</div>
+            <div class="demo-box b-triangle"></div>
+            <div class="code">width: 0; height: 0;<br>border-left: 60px solid transparent;<br>border-bottom: 100px solid;</div>
+        </div>
+
+    </div>
+
+</body>
+</html>
+</body>
+</html>
